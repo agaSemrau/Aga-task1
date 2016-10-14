@@ -1,4 +1,4 @@
-package com.SprintName.model;
+package com.sprintName.model;
 
 
 public class CodeName {
@@ -26,8 +26,9 @@ public class CodeName {
     public void setNoun(Noun noun) {
         this.noun = noun;
     }
+
     @Override
-    public String toString(){
-        return adjective.getAdjective() + " "  + noun.getNoun();
+    public String toString() {
+        return adjective.getAdjective() + " " + noun.getNoun();
     }
 }
